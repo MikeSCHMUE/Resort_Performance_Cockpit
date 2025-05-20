@@ -46,7 +46,7 @@ with st.form("input_form"):
 
     st.subheader("💰 Revenue and Cost")
     ancillary = st.number_input("Ancillary Revenue per Night (Scooter Rental, Laundry Service etc.)", value=10.0, step=5.0)
-    fixed_costs = st.number_input("Monthly Fixed Costs (OPEX = Operational Expenditures)", value=7000.0, step=500.0)
+    fixed_costs = st.number_input("Monthly Fixed Costs (OPEX = Operational Expenditures)", value=6000.0, step=500.0)
     variable_cost = st.number_input("Variable Cost per Room per Night (Toiletries, Breakfast incl.)", value=15.0, step=5.0)
     capex = st.number_input("Total Investment (CAPEX = Capital Expenditure)", value=350000.0, step=10000.0)
     
