@@ -153,7 +153,8 @@ if st.session_state["results"]:
         border-radius: 10px;
         text-align: center;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-        background-color: #ffffff;
+        background-color: #f9f9f9;
+        color: #111111;
         min-height: 180px;
         display: flex;
         flex-direction: column;
